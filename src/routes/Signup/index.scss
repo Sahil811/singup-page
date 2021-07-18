@@ -22,7 +22,7 @@ $singup-grey-color-1: #7f8a9c;
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    max-height: 700px;
+    max-height: 800px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
     &_images {
@@ -96,6 +96,10 @@ $singup-grey-color-1: #7f8a9c;
       &_images {
         height: 100%;
         border-radius: 0 2rem 2rem 0;
+
+        &:after {
+          all: unset;
+        }
 
         &_logo {
           width: 8rem;
